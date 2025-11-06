@@ -762,11 +762,19 @@ p {
   padding: var(--spacing-lg);
   background: linear-gradient(180deg, rgba(15, 23, 42, 0) 0%, rgba(15, 23, 42, 0.85) 100%);
   color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .destination-price {
   color: var(--accent-yellow);
   font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .world-map {
@@ -2479,5 +2487,32 @@ p {
 
   .nav-menu {
     gap: var(--spacing-md);
+  }
+}
+
+
+@media (max-width: 600px) {
+  .destination-card {
+    border-radius: var(--radius-lg);
+  }
+
+  .destination-image {
+    height: 220px;
+  }
+
+  .destination-content {
+    position: relative;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.85) 0%, rgba(15, 23, 42, 0.85) 100%);
+    border-radius: var(--radius-lg);
+    margin: var(--spacing-sm);
+  }
+
+  .destination-name,
+  .destination-info,
+  .destination-price {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
