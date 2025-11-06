@@ -1,0 +1,10 @@
+<svg width="960" height="480" viewBox="0 0 960 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="480" rx="32" fill="url(#grad)" opacity="0.12"/>
+  <path d="M182 196l18-8 10 14-6 12-16-2-6-16Zm132-48 20-12 18 8 6 14-10 12h-22l-12-22Zm156-46 26-6 24 12 4 20-20 14-28-4-6-36Zm160 70 14-26 30-8 18 20-8 24-28 6-26-16Zm176 68 16-12 18 8 4 20-18 12-20-10v-18ZM180 312l22-14 26 10 2 24-16 18-26-4-8-34Zm188 24 28-18 28 10 10 24-16 22-36-6-14-32Zm192-16 30-12 28 12 8 22-24 16-34-10-8-28Zm196-12 22-20 24 10 6 24-20 20-30-10-2-24Zm-84 92 26-16 28 10 12 24-22 18-32-8-12-28Zm-356-44 18-18 28 12 6 24-18 18-28-8-6-28Z" fill="url(#grad)" opacity="0.8"/>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="960" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+</svg>

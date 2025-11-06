@@ -1,0 +1,5 @@
+<svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="32" rx="16" fill="rgba(148, 163, 184, 0.2)"/>
+  <path d="M27 12h14l3 8h9l3-8h5" stroke="#E2E8F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="56" y="19" text-anchor="middle" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#E2E8F0">PCI</text>
+</svg>
