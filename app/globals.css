@@ -211,6 +211,15 @@ p {
   background: #ffffff;
 }
 
+[data-theme='dark'] .nav-menu {
+  background: #061021;
+  border-top: 1px solid rgba(59, 130, 246, 0.25);
+}
+
+[data-theme='dark'] .nav-menu a {
+  color: var(--gray-400);
+}
+
 .theme-toggle-wrapper {
   position: absolute;
   top: 50%;
@@ -487,7 +496,7 @@ p {
 }
 
 .app-badge img {
-  width: 170px;
+  width: clamp(140px, 45vw, 170px);
   height: 100%;
   display: block;
   transition: transform var(--transition-base);
@@ -2316,4 +2325,62 @@ p {
 [data-theme='dark'] .download-btn {
   background: rgba(15, 23, 42, 0.7);
   border: 1px solid rgba(148, 163, 184, 0.3);
+}
+
+
+@media (max-width: 768px) {
+  .nav-container {
+    gap: var(--spacing-md);
+  }
+
+  .nav-actions {
+    gap: var(--spacing-sm);
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta .btn-primary,
+  .hero-cta .btn-secondary {
+    width: 100%;
+  }
+
+  .app-badges {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .app-badge {
+    justify-content: center;
+  }
+
+  .trust-indicators {
+    justify-content: center;
+    gap: var(--spacing-lg);
+  }
+
+  .theme-toggle-wrapper {
+    display: none;
+  }
+
+  .nav-menu .nav-menu-toggle {
+    display: list-item;
+    text-align: left;
+  }
+
+  .nav-menu {
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 520px) {
+  .app-badge img {
+    width: clamp(130px, 60vw, 170px);
+  }
 }
