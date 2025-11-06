@@ -2384,3 +2384,17 @@ p {
     width: clamp(130px, 60vw, 170px);
   }
 }
+
+
+@media (max-width: 768px) {
+  .hero-cta {
+    align-items: center;
+  }
+
+  .hero-cta .btn-primary,
+  .hero-cta .btn-secondary {
+    width: 100%;
+    max-width: 320px;
+    margin-inline: auto;
+  }
+}
